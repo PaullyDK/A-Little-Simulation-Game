@@ -134,10 +134,3 @@ Notes / Gotchas
 	•	If you try to move/damage an entity ID that no longer exists, the event will be ignored.
 	•	Save files are standard JSON and can be inspected manually.
 EOF
-
-### Verify it worked
-```bash
-ls -l README.md
-head -n 15 README.md
-
-If you want, tell me your actual folder + filenames (your screenshot shows WorldSim as a folder inside a larger repo), and I’ll give you the exact cd ... command to get into the right directory first.
