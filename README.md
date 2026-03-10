@@ -20,7 +20,7 @@ README.md
 
 From the `WorldSim/` directory:
 
-```bash
+bash
 python3 cli.py
 
 You should see the CLI prompt:
@@ -119,15 +119,7 @@ Example:
 
 > quit
 
-Example Session
 
-> spawn player 0 0 100
-> spawn orc 2 0 80
-> move 1 1 0
-> damage 2 10
-> tick 3
-> save demo.json
-> quit
 
 Notes / Gotchas
 	•	move and damage schedule events at the current world tick (world.tick).
